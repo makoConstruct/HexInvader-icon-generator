@@ -1,0 +1,18 @@
+{ 
+	"seed" : 333,
+	"hexagonally packed" : true,
+	"number of rows" : 16,
+	"number of columns" : 22,
+	"distance between faces" : 37,
+	"face border diameter" : 31,
+	"face diameter" : 24,
+	"hexagon protrusion" : 0,
+	"output file name" : "broad.png",
+	"iterative" : false,
+	"background color" :
+		{"r":0,"g":0,"b":0},
+	"face plaque color" :
+		{"r":0.2,"g":0.2,"b":0.2},
+	"face color" :
+		{"r":0.94,"g":0.94,"b":1}
+}

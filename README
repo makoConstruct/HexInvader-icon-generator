@@ -1,0 +1,25 @@
+Generates icons/boards of icons, given a json description of the build order.
+
+For an example of a build order, see broadorder.json.
+
+
+The order description language is as follows:
+
+{ 
+	"seed" : 333,	%the seed for generating a random batch of icons repeatably
+	"hexagonally packed" : true,	%alters the layout of multiple icon batches. Prettier when true.
+	"number of rows" : 16,
+	"number of columns" : 22,
+	"distance between faces" : 37,
+	"face border diameter" : 31,	%concerning the circle that is drawin behind faces. Set to 0 for no circle.
+	"face diameter" : 24,
+	"hexagon protrusion" : 0,	%0 or a small value is optimal
+	"output file name" : "broad.png",
+	"iterative" : false,	%defaults to false, when true, there is no random, renders each possible icon, one after the other.
+	"background color" :
+		{"r":0,"g":0,"b":0},	%doesn't use an alpha value yet, I should add that..
+	"face plaque color" :	%color of the 'border'
+		{"r":0.2,"g":0.2,"b":0.2},
+	"face color" :
+		{"r":0.94,"g":0.94,"b":1}
+}
