@@ -1,7 +1,7 @@
 Generates icons/boards of icons, given a json description of the build order.
 
 For an example of a build order, see broadorder.json.
-
+For an example of the product, see http://makopool.com/hexShow.png/
 
 The order description language is as follows:
 
